@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://www.hd-freewallpapers.com/latest-wallpapers/abstract-wallpaper-2014.jpg");
+    background-size: cover;
+    color: white;
+}
+.container-fluid ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.container-fluid ul li{
+    float: left;
+    width: 304px;
+    height: 40px;
+    background-color: black;
+    opacity: .7;
+    line-height: 40px; /*this is used for giving the line height which is equal to the line spacing in the word*/
+    text-align: center;
+    font-size: 18px;
+}
+.container-fluid ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+.container-fluid ul li a:hover{
+    background-color: green;
+}
+.container-fluid ul li ul li{
+    display: none;
+}
+.container-fluid ul li ul li ul{
+    display: none;
+}
+.container-fluid ul li:hover ul li{
+    display: block;
+    background-color: black;
+    opacity: .9;
+}
+.container-fluid ul li:hover ul li:hover ul{
+    display: block;
+    background-color: black;
+    opacity: .9;
+}
+footer{
+    width: 99%;
+    height: 40px;
+    font-size: 21px;
+    line-height: 40px;
+}
+#a{
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    right: 8px;
+    top: 710px;
+}
+#f1{
+    text-align: right;
+    position: absolute;
+    top:2px;
+    right: 10px;
+}
+img{
+    height: 15px;
+    width: 15px;
+}
+h1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_ifvY1-ric8-RRCuEChnw3ywuuRWGsFJI7Q21B_GsB_gzztra");
+    color: black;
+    height: 100%;
+    width: 100%;
+}
